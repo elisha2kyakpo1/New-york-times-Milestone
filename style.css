@@ -25,6 +25,8 @@
 .container-main {
     margin-left: 5%;
 }
+
+/*More Articles Menu*/
 .more-articles {
 
 }
@@ -50,3 +52,27 @@
 .art-link {
   margin: 5px 0;
 }
+
+
+/*Most popular Menu*/
+
+.most-popular {
+  width: 300px;
+}
+
+.most-popular-link {
+  width: 300px;
+  display: inline-block;
+  padding: 20px 0;
+  border-top: 1px solid #000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Editor Picks menu*/
+
+.editors-picks {
+    width: 760px;
+}
+
+/* Footer */
