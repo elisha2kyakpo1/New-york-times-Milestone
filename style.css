@@ -79,12 +79,28 @@
 
 
 /* Footer */
+.footer {
 
-.footer-data,
-a {
+}
+
+.data-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-data {
+
+}
+
+.footer-data a {
     display: block;
     text-decoration: none;
     color: black;
+}
+
+.last-list-border {
+  border-left: 1px solid black;
+  padding-left: 30px;
 }
 
 .bold {
@@ -93,13 +109,15 @@ a {
 
 .sub-hr {
     display: block;
-    width: 50px;
+    width: 100%;
 }
 
 .svg {
     display: block;
 }
 
-.footer-data {
-    display: inline-block;
+.end-link {
+  text-decoration: none;
+  font-size: 12px;
+  color: light-gray;
 }
