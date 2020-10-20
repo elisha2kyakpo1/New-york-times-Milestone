@@ -26,48 +26,50 @@
     margin-left: 5%;
 }
 
-/*More Articles Menu*/
-.more-articles {
 
-}
+/*More Articles Menu*/
+
+.more-articles {}
+
 .art-box {
-  display: inline-block;
-  width: 250px;
+    display: inline-block;
+    width: 250px;
 }
 
 .art-img {
-  width: 250px;
+    width: 250px;
 }
 
 .after-img {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 .light-text {
-  margin: 5px 0;
-  padding:2px;
-  font-size: 11px;
+    margin: 5px 0;
+    padding: 2px;
+    font-size: 11px;
 }
 
 .art-link {
-  margin: 5px 0;
+    margin: 5px 0;
 }
 
 
 /*Most popular Menu*/
 
 .most-popular {
-  width: 300px;
+    width: 300px;
 }
 
 .most-popular-link {
-  width: 300px;
-  display: inline-block;
-  padding: 20px 0;
-  border-top: 1px solid #000;
-  font-size: 20px;
-  text-decoration: none;
+    width: 300px;
+    display: inline-block;
+    padding: 20px 0;
+    border-top: 1px solid #000;
+    font-size: 20px;
+    text-decoration: none;
 }
+
 
 /* Editor Picks menu*/
 
@@ -75,4 +77,29 @@
     width: 760px;
 }
 
+
 /* Footer */
+
+.footer-data,
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.sub-hr {
+    display: block;
+    width: 50px;
+}
+
+.svg {
+    display: block;
+}
+
+.footer-data {
+    display: inline-block;
+}
