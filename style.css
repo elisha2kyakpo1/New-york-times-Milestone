@@ -1,113 +1,113 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
+    box-sizing: border-box;
+    padding: 0;
 }
 
 .body {
-  padding-left: 10px;
-  margin: 0 1rem 0 auto;
+    padding-left: 10px;
+    margin: 0 1rem 0 auto;
 }
 
 .header {
-  background-color: aqua;
-  margin: 0 auto;
+    background-color: aqua;
+    margin: 0 auto;
 }
 
 .svg {
-  height: 2rem;
+    height: 2rem;
 }
 
 .main-img {
-  height: 25%;
+    height: 25%;
 }
 
 .container-main {
-  margin-left: 5%;
+    margin-left: 5%;
 }
 
 
-/* More Articles Menu */
+/*  More Articles Menu  */
 
 .art-box {
-  display: inline-block;
-  width: 250px;
+    display: inline-block;
+    width: 250px;
 }
 
 .art-img {
-  width: 250px;
+    width: 250px;
 }
 
 .after-img {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 .light-text {
-  margin: 5px 0;
-  padding: 2px;
-  font-size: 11px;
+    margin: 5px 0;
+    padding: 2px;
+    font-size: 11px;
 }
 
 .art-link {
-  margin: 5px 0;
+    margin: 5px 0;
 }
 
 
 /* Most popular Menu */
 
 .most-popular {
-  width: 300px;
+    width: 300px;
 }
 
 .most-popular-link {
-  width: 300px;
-  display: inline-block;
-  padding: 20px 0;
-  border-top: 1px solid #000;
-  font-size: 20px;
-  text-decoration: none;
+    width: 300px;
+    display: inline-block;
+    padding: 20px 0;
+    border-top: 1px solid #000;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 
 /* Editor Picks menu */
 
 .editors-picks {
-  width: 760px;
+    width: 760px;
 }
 
 
 /* Footer */
 
 .data-div {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-data a {
-  display: block;
-  text-decoration: none;
-  color: black;
+    display: block;
+    text-decoration: none;
+    color: black;
 }
 
 .last-list-border {
-  border-left: 1px solid black;
-  padding-left: 30px;
+    border-left: 1px solid black;
+    padding-left: 30px;
 }
 
 .bold {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .sub-hr {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
 
 .svg {
-  display: block;
+    display: block;
 }
 
 .end-link {
-  text-decoration: none;
-  font-size: 12px;
-  color: gray;
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
 }
