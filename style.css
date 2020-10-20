@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.body {
+    padding-left: 10px;
+    margin: 0 1rem 0 auto;
+}
+
+.header {
+    background-color: aqua;
+    margin: 0 auto 0 auto;
+}
+
+.svg {
+    height: 2rem;
+    ;
+}
+
+.main-img {
+    height: 25%;
+}
+
+.container-main {
+    margin-left: 5%;
+}
