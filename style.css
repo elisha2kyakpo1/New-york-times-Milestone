@@ -25,3 +25,28 @@
 .container-main {
     margin-left: 5%;
 }
+.more-articles {
+
+}
+.art-box {
+  display: inline-block;
+  width: 250px;
+}
+
+.art-img {
+  width: 250px;
+}
+
+.after-img {
+  font-size: 12px;
+}
+
+.light-text {
+  margin: 5px 0;
+  padding:2px;
+  font-size: 11px;
+}
+
+.art-link {
+  margin: 5px 0;
+}
