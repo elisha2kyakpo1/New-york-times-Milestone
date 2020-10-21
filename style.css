@@ -292,3 +292,8 @@ hr {
 .fData {
     margin-bottom: 20px;
 }
+
+.search {
+    height: 20px;
+    margin: 0 5px 0 40px;
+}
