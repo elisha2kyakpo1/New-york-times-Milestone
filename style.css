@@ -19,6 +19,13 @@
 .paragraph {
     flex-direction: column;
     margin-bottom: 50px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.body {
+    padding-left: 10px;
+    margin: 0 1rem 0 auto;
 }
 
 .nav-list {
@@ -62,12 +69,25 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 35px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.svg {
+    height: 2rem;
+    display: block;
+}
+
+.main-img {
+    height: 25%;
+}
+
+.container-main {
+    margin-left: 5%;
 }
 
 
-/*More Articles Menu*/
-
-.more-articles {}
+/*  More Articles Menu  */
 
 .art-box {
     display: inline-block;
@@ -93,7 +113,7 @@
 }
 
 
-/*Most popular Menu*/
+/* Most popular Menu */
 
 .most-popular {
     width: 300px;
@@ -109,7 +129,7 @@
 }
 
 
-/* Editor Picks menu*/
+/* Editor Picks menu */
 
 .editors-picks {
     width: 760px;
@@ -118,11 +138,20 @@
 
 /* Footer */
 
-.footer-data,
-a {
+.data-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-data a {
     display: block;
     text-decoration: none;
     color: black;
+}
+
+.last-list-border {
+    border-left: 1px solid black;
+    padding-left: 30px;
 }
 
 .bold {
@@ -131,11 +160,13 @@ a {
 
 .sub-hr {
     display: block;
-    width: 50px;
+    width: 100%;
 }
 
-.svg {
-    display: block;
+.end-link {
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
 }
 
 .footer-data {
