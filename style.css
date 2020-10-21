@@ -4,9 +4,12 @@
     margin: 0;
 }
 
-body{
-  background-color: #F7F7F7;
+body {
+    position: relative;
+    background-color: #f7f7f7;
+    font-family: sans-serif;
 }
+
 
 /* making all containers to be flexbox */
 
@@ -14,20 +17,22 @@ body{
 .nav-list,
 .more-articles,
 .fData,
-.big-img {
+.big-img,
+.editors-container,
+.footer {
     display: flex;
 }
 
 .paragraph {
-  box-sizing: border-box;
-  padding: 5px 180px;
-  line-height: 25px;
-  font-size: 20px;
-  color: #333333;
+    box-sizing: border-box;
+    padding: 5px 180px;
+    line-height: 25px;
+    font-size: 20px;
+    color: #333333;
 }
 
 .paragraph p {
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .nav-list {
@@ -38,20 +43,24 @@ body{
 /* the header is th container for the nav */
 
 .header {
-  align-items: center;
-  padding: 0 1.3rem 0 1.3rem;
-  box-shadow: 0 0 1px grey;
-  height: 45px;
-  margin-bottom: 5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    align-items: center;
+    padding: 0 1.3rem 0 1.3rem;
+    box-shadow: 0 0 1px grey;
+    height: 45px;
+    margin-bottom: 5rem;
 }
 
-.header a{
-  text-decoration: none;
+.header a {
+    text-decoration: none;
 }
 
-.black-color{
-  color: black
+.black-color {
+    color: black;
 }
+
 .black-color:hover {
     text-decoration: underline;
 }
@@ -59,23 +68,22 @@ body{
 .subscribe,
 .login {
     padding: 8px 6px;
-    background-color: #567B95;
+    background-color: #567b95;
     margin: 5px;
-    border-radius: 0.4rem;
+    border-radius: 0.2rem;
     font-size: 12px;
     color: white;
 }
 
-
-
 .menu-icon {
-  padding-right: 20px
+    padding-right: 20px;
 }
+
 .m-icon {
-  width: 15px;
-  height: 2px;
-  background-color: black;
-  margin: 2px 0;
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    margin: 2px 0;
 }
 
 .svg1 {
@@ -84,7 +92,10 @@ body{
 }
 
 .svg2 {
-    height: 3rem;
+    display: block;
+    align-self: start;
+    height: 2rem;
+    margin-bottom: 20px;
 }
 
 .main-img {
@@ -96,9 +107,9 @@ body{
     padding: 0 150px;
 }
 
-.art-address{
-  padding: 0 150px;
-  font-size: 22px;
+.art-address {
+    padding: 0 150px;
+    font-size: 22px;
 }
 
 .big-img {
@@ -109,17 +120,8 @@ body{
     margin: 0 auto;
 }
 
-.svg {
-    height: 2rem;
-    display: block;
-}
-
 .main-img {
     width: 100%;
-}
-
-.container-main {
-
 }
 
 
@@ -165,10 +167,30 @@ body{
 }
 
 
-/* Editor Picks menu */
+/* Editor container menu */
 
-.editors-picks {
-    width: 760px;
+.editors-container {
+    align-items: center;
+    gap: 15px;
+}
+
+.h3,
+.h {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.articles,
+.art-box a {
+    text-decoration: none;
+    color: #000;
+}
+
+.articles,
+.art-box a:hover {
+    text-decoration: underline;
 }
 
 
@@ -210,7 +232,6 @@ body{
 }
 
 
-
 /* aligning the subscribe & login nav */
 
 .nav {
@@ -218,9 +239,56 @@ body{
 }
 
 .fData {
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .mainImg-para {
     margin: 0 auto 0 auto;
+}
+
+.more-articles,
+.footer,
+.editors-picks {
+    padding-left: 35px;
+}
+
+hr {
+    margin: 10px 0 10px 0;
+}
+
+.art-box {
+    margin-right: 15px;
+}
+
+.art-box:nth-last-child(6) {
+    margin-right: 0;
+}
+
+.most-popular a {
+    color: black;
+}
+
+.hr-article {
+    width: 800px;
+}
+
+.footer {
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.footer-data h6 {
+    margin-bottom: 10px;
+}
+
+.end-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    color: light-gray;
+    margin: 10px;
+}
+
+.fData {
+    margin-bottom: 20px;
 }
