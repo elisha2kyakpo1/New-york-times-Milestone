@@ -4,28 +4,30 @@
     margin: 0;
 }
 
+body{
+  background-color: #F7F7F7;
+}
 
 /* making all containers to be flexbox */
 
 .header,
 .nav-list,
 .more-articles,
-.paragraph,
 .fData,
 .big-img {
     display: flex;
 }
 
 .paragraph {
-    flex-direction: column;
-    margin-bottom: 50px;
-    box-sizing: border-box;
-    padding: 0;
+  box-sizing: border-box;
+  padding: 5px 180px;
+  line-height: 25px;
+  font-size: 20px;
+  color: #333333;
 }
 
-.body {
-    padding-left: 10px;
-    margin: 0 1rem 0 auto;
+.paragraph p {
+  padding-bottom: 10px;
 }
 
 .nav-list {
@@ -36,12 +38,44 @@
 /* the header is th container for the nav */
 
 .header {
-    justify-content: center;
-    align-items: center;
-    padding: 0 1.3rem 0 1.3rem;
-    box-shadow: 0 0 5px gray;
-    height: 45px;
-    margin-bottom: 5rem;
+  align-items: center;
+  padding: 0 1.3rem 0 1.3rem;
+  box-shadow: 0 0 1px grey;
+  height: 45px;
+  margin-bottom: 5rem;
+}
+
+.header a{
+  text-decoration: none;
+}
+
+.black-color{
+  color: black
+}
+.black-color:hover {
+    text-decoration: underline;
+}
+
+.subscribe,
+.login {
+    padding: 8px 6px;
+    background-color: #567B95;
+    margin: 5px;
+    border-radius: 0.4rem;
+    font-size: 12px;
+    color: white;
+}
+
+
+
+.menu-icon {
+  padding-right: 20px
+}
+.m-icon {
+  width: 15px;
+  height: 2px;
+  background-color: black;
+  margin: 2px 0;
 }
 
 .svg1 {
@@ -59,9 +93,12 @@
 }
 
 .container-main {
-    padding: 0 20px 0 20px;
-    margin-left: auto;
-    text-align: left;
+    padding: 0 150px;
+}
+
+.art-address{
+  padding: 0 150px;
+  font-size: 22px;
 }
 
 .big-img {
@@ -69,7 +106,6 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 35px;
-    background-color: aqua;
     margin: 0 auto;
 }
 
@@ -79,11 +115,11 @@
 }
 
 .main-img {
-    height: 25%;
+    width: 100%;
 }
 
 .container-main {
-    margin-left: 5%;
+
 }
 
 
@@ -173,15 +209,6 @@
     display: inline-block;
 }
 
-.subscribe,
-.login {
-    padding: 8px 6px;
-    background-color: #718096;
-    margin: 5px;
-    border-radius: 0.4rem;
-    font-size: 12px;
-    color: white;
-}
 
 
 /* aligning the subscribe & login nav */
