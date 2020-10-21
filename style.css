@@ -1,29 +1,67 @@
 * {
     box-sizing: border-box;
     padding: 0;
+    margin: 0;
 }
 
-.body {
-    padding-left: 10px;
-    margin: 0 1rem 0 auto;
+
+/* making all containers to be flexbox */
+
+.header,
+.nav-list,
+.more-articles,
+.paragraph,
+.fData,
+.big-img {
+    display: flex;
 }
+
+.paragraph {
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+
+/* the header is th container for the nav */
 
 .header {
-    background-color: aqua;
-    margin: 0 auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.3rem 0 1.3rem;
+    box-shadow: 0 0 5px gray;
+    height: 45px;
+    margin-bottom: 5rem;
 }
 
-.svg {
+.svg1 {
     height: 2rem;
-    ;
+    margin-left: auto;
+}
+
+.svg2 {
+    height: 3rem;
 }
 
 .main-img {
     height: 25%;
+    margin-top: 3rem;
 }
 
 .container-main {
-    margin-left: 5%;
+    padding: 0 20px 0 20px;
+    margin-left: auto;
+    text-align: left;
+}
+
+.big-img {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
 }
 
 
@@ -102,4 +140,29 @@ a {
 
 .footer-data {
     display: inline-block;
+}
+
+.subscribe,
+.login {
+    padding: 8px 6px;
+    background-color: #718096;
+    margin: 5px;
+    border-radius: 0.4rem;
+    font-size: 12px;
+    color: white;
+}
+
+
+/* aligning the subscribe & login nav */
+
+.nav {
+    margin-left: auto;
+}
+
+.fData {
+    justify-content: space-around;
+}
+
+.mainImg-para {
+    margin: 0 auto 0 auto;
 }
