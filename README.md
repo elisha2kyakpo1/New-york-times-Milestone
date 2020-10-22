@@ -17,9 +17,9 @@ You can find the original project specification at: https://www.theodinproject.c
 - VScode & Atom as code editors
 - Chrome Dev tools
 
-## Live Demo #NEEDS UPDATE
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com) 
+[Live Demo Link](https://nobbier-pencils.000webhostapp.com/) 
 
 ## Authors
 
@@ -37,8 +37,6 @@ You can find the original project specification at: https://www.theodinproject.c
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
