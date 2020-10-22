@@ -1,5 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+## Week 1
+
 # Project 1 : Positioning and Floating Elements
 
 > This Project consists of making a clone of a New York Times article page.
@@ -21,12 +23,12 @@ You can find the original project specification at: https://www.theodinproject.c
 
 ## Authors
 
-👤 **@elisha2kyakpo1**
+👤 **Elisha Kyakopo**
 
 - GitHub: [@elisha2kyakpo1](https://github.com/elisha2kyakpo1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/elisha-kyakopo-009aa3197/)
 
-👤 **Author2**
+👤 **Omar Rashad**
 
 - GitHub: [@od-c0d3r](https://github.com/od-c0d3r)
 - Twitter: [@od_coder](https://twitter.com/od_coder)
