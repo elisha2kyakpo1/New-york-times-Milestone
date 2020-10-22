@@ -422,13 +422,22 @@ hr {
 }
 
 .btn {
-    display: block;
     border: none;
     padding: 12px 5rem;
     border-radius: 3px;
-    margin-top: 35px;
-    cursor: pointer;
-    background-color: #567b95;
+    background-color: #698499;
+    margin-top: 20px;
+}
+
+.btn-group {
+    padding-right: 50px;
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
+}
+
+.fa {
+  padding-left: 20px;
 }
 
 .social a {
