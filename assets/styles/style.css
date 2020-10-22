@@ -173,7 +173,9 @@ body {
   line-height: 17px;
   width: 200px;
   text-align: justify;
+  margin-bottom: 20px
 }
+
 .para1{
 
   top:150px;
@@ -214,11 +216,28 @@ body {
 .auther-hr{
   width: 60px;
 }
+.auther-name{
+  padding: 10px 0 50px 0;
+}
 
+.video {
+  margin-top: 50px;
+}
+
+.padding-zero {
+  padding: 0
+}
+
+.small-text{
+  font-size: 12px
+}
 /* Most popular Menu */
 
 .most-popular {
     width: 300px;
+}
+.inline-class{
+  display: inline;
 }
 
 .most-popular-link {
