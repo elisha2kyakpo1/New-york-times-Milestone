@@ -154,57 +154,62 @@ body {
     margin: 5px 0;
 }
 
-.img-container{
-  position: relative;
+.img-container {
+    position: relative;
 }
 
-.astro-img{
-  width: 900px
+.astro-img {
+    width: 900px;
 }
 
 .para {
-  position: absolute;
-  font-size: 13px;
-  line-height: 17px;
-  width: 200px;
-  text-align: justify;
-}
-.para1{
-
-  top:150px;
-  left:0;
-}
-.para2{
-  top:150px;
-  left:230px;
+    position: absolute;
+    font-size: 13px;
+    line-height: 17px;
+    width: 200px;
+    text-align: justify;
 }
 
-.para3{
-  top:150px;
-  left:465px;
+.para1 {
+    top: 150px;
+    left: 0;
 }
-.para4{
-  top:150px;
-  left:694px;
-}
-.para5{
-  top: 420px;
-  left: 0;
 
+.para2 {
+    top: 150px;
+    left: 230px;
 }
-.para6{
-  top: 420px;
-  left:230px;
 
+.para3 {
+    top: 150px;
+    left: 465px;
 }
-.para7{
-  top: 420px;
-  left:465px;
+
+.para4 {
+    top: 150px;
+    left: 694px;
 }
-.para8{
-  top: 420px;
-  left:694px;
+
+.para5 {
+    top: 420px;
+    left: 0;
 }
+
+.para6 {
+    top: 420px;
+    left: 230px;
+}
+
+.para7 {
+    top: 420px;
+    left: 465px;
+}
+
+.para8 {
+    top: 420px;
+    left: 694px;
+}
+
 
 /* Most popular Menu */
 
