@@ -120,7 +120,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 0 35px;
 }
 
 .more-para {
@@ -424,6 +423,11 @@ hr {
 }
 
 .anchor-btn {
-  text-decoration: none;
-  color: white;
+  padding: 5px 90px;
+  background-color: #567B95;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  color: whitesmoke;
+  font-weight: 600;
 }
