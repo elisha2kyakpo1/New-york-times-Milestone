@@ -384,3 +384,34 @@ hr {
     width: 54px;
     padding-right: 20px;
 }
+
+
+
+
+
+.epAside{
+	max-width :250px;
+  position: absolute;
+  right: 1px;
+}
+
+.epBlock{
+	padding: 5px;
+	clear:both;
+	padding-bottom:15px;
+}
+
+.epBlock-img{
+	width:80px;
+	float:left;
+	padding-right:10px;
+}
+
+.epAside a {
+  color: black;
+  text-decoration: none;
+}
+
+.epAside a:hover {
+  text-decoration: underline;
+}
