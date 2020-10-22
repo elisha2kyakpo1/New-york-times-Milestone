@@ -128,6 +128,10 @@ body {
     width: 100%;
 }
 
+.more-para{
+  padding: 0 180px;
+}
+
 
 /*  More Articles Menu  */
 
@@ -159,7 +163,8 @@ body {
 }
 
 .astro-img{
-  width: 900px
+  width: 900px;
+  margin-bottom:80px;
 }
 
 .para {
@@ -204,6 +209,10 @@ body {
 .para8{
   top: 420px;
   left:694px;
+}
+
+.auther-hr{
+  width: 60px;
 }
 
 /* Most popular Menu */
