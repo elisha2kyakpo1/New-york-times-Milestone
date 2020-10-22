@@ -12,7 +12,7 @@ You can find the original project specification at: https://www.theodinproject.c
 
 - HTML
 - CSS
-- VScode & Atom as code editros
+- VScode & Atom as code editors
 - Chrome Dev tools
 
 ## Live Demo #NEEDS UPDATE
