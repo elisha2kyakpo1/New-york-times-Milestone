@@ -10,7 +10,6 @@ body {
   font-family: sans-serif;
 }
 
-
 /* making all containers to be flexbox */
 
 .container-imgMain,
@@ -39,7 +38,6 @@ body {
 .nav-list {
   list-style-type: none;
 }
-
 
 /* the header is th container for the nav */
 
@@ -138,7 +136,6 @@ body {
 .more-para {
   padding: 0 180px;
 }
-
 
 /*  More Articles Menu  */
 
@@ -255,7 +252,6 @@ iframe {
   font-size: 12px;
 }
 
-
 /* Most popular Menu */
 
 .most-popular {
@@ -272,7 +268,6 @@ iframe {
   border-top: 1px solid #000;
   font-size: 20px;
 }
-
 
 /* Editor container menu */
 
@@ -315,7 +310,6 @@ iframe {
   text-decoration: underline;
 }
 
-
 /* Footer */
 
 .data-div {
@@ -342,7 +336,6 @@ iframe {
   color: gray;
   margin: 10px;
 }
-
 
 /* aligning the subscribe & login nav */
 
