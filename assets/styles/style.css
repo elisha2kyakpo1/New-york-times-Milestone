@@ -52,16 +52,7 @@ body {
   margin-bottom: 5rem;
 }
 
-.header a, 
-.h3,
-.h,
-.most-popular-link,
-.footer-data a,
-.anchor-btn,
-.end-link,
-.articles,
-.art-box a,
-.epAsid {
+.header a {
   text-decoration: none;
 }
 
@@ -69,10 +60,9 @@ body {
   color: black;
 }
 
-.articles {
+.black-color:hover {
   text-decoration: underline;
 }
-
 
 .subscribe,
 .login {
@@ -82,16 +72,6 @@ body {
   border-radius: 0.2rem;
   font-size: 12px;
   color: white;
-}
-
-.anchor-btn,
-.btn-group,
-.footer-data,
-.end-link,
-.h3,
-.h,
-.most-popular-lin {
-  display: inline-block;
 }
 
 .menu-icon {
@@ -263,9 +243,11 @@ iframe {
 
 .most-popular-link {
   width: 300px;
+  display: inline-block;
   padding: 20px 0;
   border-top: 1px solid #000;
   font-size: 20px;
+  text-decoration: none;
 }
 
 /* Editor container menu */
@@ -277,12 +259,15 @@ iframe {
 
 .h3,
 .h {
+  display: inline-block;
   margin-bottom: 20px;
   color: #000;
+  text-decoration: none;
 }
 
 .footer-data a {
   display: block;
+  text-decoration: none;
   color: black;
 }
 
@@ -297,11 +282,18 @@ iframe {
 
 .epAside a {
   color: black;
+  text-decoration: none;
 }
 
 .articles,
 .art-box a {
+  text-decoration: none;
   color: #000;
+}
+
+.articles,
+.art-box a:hover {
+  text-decoration: underline;
 }
 
 /* Footer */
@@ -326,9 +318,15 @@ iframe {
 }
 
 .end-link {
+  text-decoration: none;
   font-size: 12px;
+  display: inline-block;
   color: gray;
   margin: 10px;
+}
+
+.footer-data {
+  display: inline-block;
 }
 
 /* aligning the subscribe & login nav */
@@ -401,6 +399,10 @@ hr {
   padding-right: 10px;
 }
 
+.epAside a:hover {
+  text-decoration: underline;
+}
+
 .btn {
   border: none;
   padding: 12px 5rem;
@@ -411,6 +413,7 @@ hr {
 
 .btn-group {
   padding-right: 50px;
+  display: inline-block;
   float: right;
   margin-top: 25px;
 }
@@ -419,13 +422,28 @@ hr {
   padding-left: 20px;
 }
 
-.black-color:hover {
-  text-decoration: underline;
 .anchor-btn {
   padding: 5px 90px;
   background-color: #567b95;
   margin-top: 20px;
   border-radius: 5px;
+  display: inline-block;
   color: whitesmoke;
   font-weight: 600;
+  text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
