@@ -61,7 +61,7 @@ body {
 .end-link,
 .articles,
 .art-box a,
-.epAsid{
+.epAsid {
   text-decoration: none;
 }
 
@@ -70,15 +70,15 @@ body {
 }
 
 .articles,
-.art-box a:hover{
+.art-box a:hover {
   text-decoration: underline;
 }
 
-.epAside a:hover{
+.epAside a:hover {
   text-decoration: underline;
 }
 
-.black-color:hover{
+.black-color:hover {
   text-decoration: underline;
 }
 
