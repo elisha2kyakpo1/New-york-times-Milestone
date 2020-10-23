@@ -69,18 +69,10 @@ body {
   color: black;
 }
 
-.articles,
-.art-box a:hover {
+.articles {
   text-decoration: underline;
 }
 
-.epAside a:hover {
-  text-decoration: underline;
-}
-
-.black-color:hover {
-  text-decoration: underline;
-}
 
 .subscribe,
 .login {
@@ -427,6 +419,16 @@ hr {
   padding-left: 20px;
 }
 
+.art-box a:hover {
+  text-decoration: underline;
+}
+
+.epAside a:hover {
+  text-decoration: underline;
+}
+
+.black-color:hover {
+  text-decoration: underline;
 .anchor-btn {
   padding: 5px 90px;
   background-color: #567b95;
