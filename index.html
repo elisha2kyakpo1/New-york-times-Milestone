@@ -46,13 +46,13 @@
                 </div>
             </div>
             <figure class="big-img">
-                <img class="main-img" src="assets/imgs/main-img.jpg" alt="new york times">
+                <img class="main-img" src="assets/imgs/main-img.jpg" alt="new york times" />
                 <figcaption class="mainImg-para">
-                <p>
-                    Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.
-                </p>
-                <small>Friedman for The New York Times</small>
-            </figcaption>
+                    <p>
+                        Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.
+                    </p>
+                    <small>Friedman for The New York Times</small>
+                </figcaption>
             </figure>
             <div class="paragraph">
                 <p>
@@ -442,7 +442,37 @@
       </small>
       <a href="#">Order Reprints</a> | <a href="#">today’s Paper</a> |
                     <a href="#">Suscribe</a>
+
+                    <details>
+                        <summary>click the arrow to Comment</summary>
+                        <form action="#" class="form">
+                            <fieldset class="field">
+                                <legend>Comment</legend>
+                                <div class="personal">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="fullName" placeholder="Enter your name" required maxlength="20" />
+                                    <label for="mails">Email</label>
+                                    <input type="email" name="email" id="mails" placeholder="Enter your email" required />
+                                    <label for="tarea">Comment</label><br />
+                                    <textarea name="comment" id="tarea" cols="30" rows="2" placeholder="Type your comment here…"></textarea>
+                                </div>
+                                <h5>What is your overall opinion about this article?</h5>
+
+                                <input type="radio" id="positive" name="radio" value="positive" />
+                                <label for="positive">positive</label><br />
+                                <input type="radio" id="negative" name="radio" value="negative" />
+                                <label for="negative">negative</label><br />
+                                <input type="radio" id="neutral" name="radio" value="neutral" />
+                                <label for="neutral">Neutral</label><br />
+                                <input type="checkbox" id="check" name="radio" checked />
+                                <label for="check">I want to subscribe to the newsletter</label>
+                                <input class="btn-send" type="submit" value="Send" />
+                            </fieldset>
+                        </form>
+                    </details>
+
                     <a class="anchor-btn" href="#">READ 615 COMMENTS</a>
+
                     <div class="btn-group">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                         <i class="fa fa-twitter" aria-hidden="true"></i>
