@@ -10,9 +10,7 @@ body {
   font-family: sans-serif;
 }
 
-
 /* making all containers to be flexbox */
-
 .container-imgMain,
 .header,
 .nav-list,
@@ -40,9 +38,7 @@ body {
   list-style-type: none;
 }
 
-
 /* the header is th container for the nav */
-
 .header {
   background-color: white;
   position: sticky;
@@ -138,9 +134,7 @@ body {
   padding: 0 180px;
 }
 
-
 /*  More Articles Menu  */
-
 .art-box,
 .most-popular-link,
 .h3,
@@ -254,9 +248,7 @@ iframe {
   font-size: 12px;
 }
 
-
 /* Most popular Menu */
-
 .most-popular {
   width: 300px;
 }
@@ -272,9 +264,7 @@ iframe {
   font-size: 20px;
 }
 
-
 /* Editor container menu */
-
 .editors-container {
   align-items: center;
   gap: 15px;
@@ -314,9 +304,7 @@ iframe {
   text-decoration: underline;
 }
 
-
 /* Footer */
-
 .data-div {
   display: flex;
   justify-content: space-around;
@@ -342,9 +330,7 @@ iframe {
   margin: 10px;
 }
 
-
 /* aligning the subscribe & login nav */
-
 .nav {
   margin-left: auto;
 }
@@ -443,16 +429,12 @@ hr {
   font-weight: 600;
 }
 
-
 /* form for sending comments */
-
 .form {
   margin-top: 20px;
 }
 
-
 /* fieldset element */
-
 .field {
   padding-left: 4rem;
   border-radius: 15px;
@@ -464,9 +446,7 @@ legend {
   font-weight: bold;
 }
 
-
 /* the div inside fieldset element */
-
 .personal input {
   display: block;
   padding: 5px 15px;
@@ -496,9 +476,7 @@ details {
   margin: 10px 0;
 }
 
-
 /* the send button */
-
 .btn-send {
   display: block;
   padding: 10px 60px;
