@@ -443,15 +443,29 @@ hr {
     font-weight: 600;
 }
 
+
+/* form for sending comments */
+
 .form {
     margin-top: 20px;
 }
+
+
+/* fieldset element */
 
 .field {
     padding-left: 4rem;
     border-radius: 15px;
     margin-bottom: 40px;
+    background-color: rgba(250, 250, 250, 0.6);
 }
+
+legend {
+    font-weight: bold;
+}
+
+
+/* the div inside fieldset element */
 
 .personal input {
     display: block;
@@ -463,24 +477,49 @@ hr {
     color: red;
 }
 
-.personal {
+summary {
+    color: seagreen;
+}
+
+.personal input,
+textarea,
+summary {
+    outline: none;
+}
+
+.personal,
+details {
     margin-top: 40px;
 }
 
 .field input {
     margin: 10px 0;
-    font-size: 18px;
 }
+
+
+/* the send button */
 
 .btn-send {
     display: block;
-    padding: 10px 40px;
+    padding: 10px 60px;
     background-color: #698499;
     border: none;
-    border-radius: 5px;
     color: white;
+    cursor: pointer;
+}
+
+textarea,
+.personal input,
+.btn-send {
+    border-radius: 5px;
+}
+
+.field input,
+textarea {
+    font-size: 18px;
 }
 
 textarea {
-    font-size: 18px;
+    padding: 15px 10px;
+    margin-bottom: 30px;
 }
