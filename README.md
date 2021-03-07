@@ -19,7 +19,7 @@ You can find the original project specification at: https://www.theodinproject.c
 
 ## Live Demo 
 
-[Live Demo Link](https://nobbier-pencils.000webhostapp.com/) 
+[Live Demo Link]( https://elisha2kyakpo1.github.io/New-york-times-Milestone/) 
 
 ## Authors
 
